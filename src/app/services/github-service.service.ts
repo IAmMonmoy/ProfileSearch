@@ -7,9 +7,15 @@ export class GithubService {
 
   private userName:string;
 
-  constructor(private _http:Http) { 
+  constructor(private _http:Http) 
+  { 
       console.log('in githubservice...');
       this.userName="IAmMonmoy";
   }
 
+  getUser()
+  {
+      return this._http.get('https://api.github.com/users/'+this.userName)
+                  .map(profile => profile.json());
+  }
 }
