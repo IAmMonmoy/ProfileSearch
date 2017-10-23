@@ -1,5 +1,5 @@
+import { GithubService } from './../../services/github-service.service';
 import { Component, OnInit } from '@angular/core';
-
 @Component({
   selector: 'github',
   templateUrl: './github-profile.component.html',
@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GithubProfileComponent implements OnInit {
 
-  constructor() { }
+  constructor(private _githubService:GithubService) { 
+
+  }
 
   ngOnInit() {
   }

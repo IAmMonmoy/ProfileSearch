@@ -1,3 +1,5 @@
+import { HttpModule } from '@angular/http';
+import { GithubService } from './services/github-service.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -10,9 +12,9 @@ import { GithubProfileComponent } from './components/github-profile/github-profi
     GithubProfileComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,HttpModule
   ],
-  providers: [],
+  providers: [GithubService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
