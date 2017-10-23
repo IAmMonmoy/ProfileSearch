@@ -2,12 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { ProfileComponent } from './components/profile/profile.component';
+import { GithubProfileComponent } from './components/github-profile/github-profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProfileComponent
+    GithubProfileComponent,
   ],
   imports: [
     BrowserModule

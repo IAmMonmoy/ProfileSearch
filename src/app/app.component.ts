@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ProfileComponent } from './components/profile/profile.component'
+import { GithubProfileComponent } from './components/github-profile/github-profile.component';
 
 @Component({
   selector: 'app-root',
