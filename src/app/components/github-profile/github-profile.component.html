@@ -1,3 +1,21 @@
-<p>
-  github-profile works!
-</p>
+<div *ngIf="user">
+    <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">{{user.name}}</h4>
+          <div class="row">
+            <div class="col-4">
+                <img class="profile-img img-thumbnail" src="{{user.avatar_url}}" alt="Profile Picture">
+                <a class="btn btn-default btn-block" href="{{user.html_url}}">Profile</a>
+            </div>
+            <div class="col-8">
+              <div class="states">
+                  <span class="badge badge-primary">{{user.public_repos}} Public Repos</span>
+                  <span class="badge badge-success">{{user.public_gists}} Public Repos</span>
+                  <span class="badge badge-info">{{user.followers}} Public Repos</span>
+                  <span class="badge badge-info">{{user.following}} Public Repos</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
