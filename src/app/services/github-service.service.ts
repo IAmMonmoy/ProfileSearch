@@ -18,4 +18,9 @@ export class GithubService {
       return this._http.get('https://api.github.com/users/'+this.userName)
                   .map(profile => profile.json());
   }
+
+  updateUser(userName:string)
+  {
+      this.userName = userName;
+  }
 }
