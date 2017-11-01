@@ -9,5 +9,10 @@ import { NgModel } from '@angular/forms';
 export class AppComponent {
   title = 'app';
   userName:string;
+
+  searchUser()
+  {
+    console.log(this.userName);
+  }
   
 }
