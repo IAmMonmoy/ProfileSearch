@@ -1,5 +1,5 @@
 import { GithubService } from './../../services/github-service.service';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import 'rxjs/add/operator/map';
 
 @Component({
@@ -9,6 +9,8 @@ import 'rxjs/add/operator/map';
 })
 export class GithubProfileComponent implements OnInit {
   private user:any[];
+  @Input() userName: string;
+  
   constructor(private _githubService:GithubService) 
   { 
       this._githubService.getUser().subscribe(user => {

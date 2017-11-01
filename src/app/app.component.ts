@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { GithubProfileComponent } from './components/github-profile/github-profile.component';
+import { NgModel } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +8,6 @@ import { GithubProfileComponent } from './components/github-profile/github-profi
 })
 export class AppComponent {
   title = 'app';
+  userName:string;
+  
 }
