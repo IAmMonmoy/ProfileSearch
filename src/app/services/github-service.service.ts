@@ -9,13 +9,14 @@ export class GithubService {
 
   constructor(private _http:Http) 
   { 
-      this.userName = 'IAmMonmoy'
+      this.userName = 'Rajob Raihan Monmoy';
   }
 
   getUser()
   {
-      return this._http.get('https://api.github.com/users/'+this.userName)
-                  .map(profile => profile.json());
+        console.log("yes");
+        return this._http.get('https://api.github.com/search?q='+this.userName+'+in:fullname&type=User')
+        .map(profile => profile.json());
   }
 
   updateUser(userName:string)

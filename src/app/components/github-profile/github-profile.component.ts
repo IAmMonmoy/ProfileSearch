@@ -8,19 +8,19 @@ import 'rxjs/add/operator/map';
   styleUrls: ['./github-profile.component.css']
 })
 export class GithubProfileComponent implements OnInit {
-  private user:any[];
+  private users:any[];
   @Input() userName: string; //get from app.component
   
   constructor(private _githubService:GithubService) 
   { 
-      this.user = null;
+      this.users = null;
   }
 
   searchUser(){
     //update the name in the github service and re run the getUser() method
     this._githubService.updateUser(this.userName); 
       this._githubService.getUser().subscribe(user => {
-        this.user = user;
+        this.users = user;
     });
   }
 
