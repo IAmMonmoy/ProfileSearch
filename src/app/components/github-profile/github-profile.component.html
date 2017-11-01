@@ -2,6 +2,11 @@
     <div class="card">
         <div class="card-body">
           <h4 class="card-title">{{user.name}}</h4>
+          <div class="row justify-content-md-center">
+            <div class="col-4">
+                <input type="button">
+            </div>
+          </div>
           <div class="row">
             <div class="col-4">
                 <img class="profile-img img-thumbnail" src="{{user.avatar_url}}" alt="Profile Picture">
@@ -10,9 +15,9 @@
             <div class="col-8">
               <div class="states">
                   <span class="badge badge-primary">{{user.public_repos}} Public Repos</span>
-                  <span class="badge badge-success">{{user.public_gists}} Public Repos</span>
-                  <span class="badge badge-info">{{user.followers}} Public Repos</span>
-                  <span class="badge badge-info">{{user.following}} Public Repos</span>
+                  <span class="badge badge-success">{{user.public_gists}} Public Gists</span>
+                  <span class="badge badge-info">{{user.followers}} Follower</span>
+                  <span class="badge badge-info">{{user.following}} Following</span>
               </div>
             </div>
           </div>
