@@ -13,9 +13,7 @@ export class GithubProfileComponent implements OnInit {
   
   constructor(private _githubService:GithubService) 
   { 
-      this._githubService.getUser().subscribe(user => {
-          this.user = user;
-      });
+      this.user = null;
   }
 
   searchUser(){

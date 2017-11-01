@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { GithubProfileComponent } from './components/github-profile/github-profile.component';
+import { Component,AfterViewInit,ViewChild } from '@angular/core';
 import { NgModel } from '@angular/forms';
 
 @Component({
@@ -6,13 +7,18 @@ import { NgModel } from '@angular/forms';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
+export class AppComponent implements AfterViewInit {
   title = 'app';
   userName:string;
+  @ViewChild(GithubProfileComponent) githubProfile;
 
-  searchUser()
-  {
-    console.log(this.userName);
-  }
+    ngAfterViewInit()
+    {
+      
+    }
+    searchUser()
+    {
+      this.githubProfile.searchUser();
+    }
   
 }
