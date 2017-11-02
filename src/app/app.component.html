@@ -12,7 +12,10 @@
       <div class="col-5">
           <form>
             <div class="form-group">
-              <input type="text" name = "userName" class="form-control" placeholder="Enter a user name"  [(ngModel)] = "userName" (keyup)  = "searchUser()">
+              <input type="text" name = "userName" class="form-control" placeholder="Enter a user name"  [(ngModel)] = "userName">
+            </div>
+            <div class="form-group">
+              <button type="submit" class="form-control btn btn-primary searchUserButton" (click) = "searchUser()">Submit</button>
             </div>
           </form>
       </div>
