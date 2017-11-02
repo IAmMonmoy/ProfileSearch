@@ -6,7 +6,9 @@ import 'rxjs/add/operator/map';
 export class GithubService {
 
   private userName:string;
-
+  private clientId:string = '6b935638a2b208216e34';
+  private clientSecret:string = '8b26cea4cb3e46f759e1ff293f1c0e5313d2c496';
+  cd:any;
   constructor(private _http:Http) 
   { 
       this.userName = 'Rajob Raihan Monmoy';
@@ -14,9 +16,9 @@ export class GithubService {
 
   getUser()
   {
-        console.log("yes");
-        return this._http.get('https://api.github.com/search?q='+this.userName+'+in:fullname&type=User')
-        .map(profile => profile.json());
+        return this._http.get('https://api.github.com/search/users?q='+this.userName
+                                +'+in:fullname&&type=Users'+'?client_id='+this.clientId+
+                            '&&client_secret='+this.clientSecret).map(users => users.json());
   }
 
   updateUser(userName:string)
