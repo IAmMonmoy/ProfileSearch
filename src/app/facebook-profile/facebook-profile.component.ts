@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-facebook-profile',
+  selector: 'facebook',
   templateUrl: './facebook-profile.component.html',
   styleUrls: ['./facebook-profile.component.css']
 })
