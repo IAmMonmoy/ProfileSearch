@@ -7,13 +7,11 @@ import {FormsModule} from  '@angular/forms'
 
 import { AppComponent } from './app.component';
 import { GithubProfileComponent } from './components/github-profile/github-profile.component';
-import { FacebookProfileComponent } from './facebook-profile/facebook-profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     GithubProfileComponent,
-    FacebookProfileComponent,
   ],
   imports: [
     BrowserModule,HttpModule,FormsModule
