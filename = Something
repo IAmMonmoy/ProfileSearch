@@ -1,0 +1,131 @@
+[33mcommit ab4bbcb3f9f9cf189fe084db3db19ec473e4e94b[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Sat Nov 11 21:54:18 2017 +0600
+
+    solved problem with application by adding facebook markup
+
+[33mcommit 7388a80d997c3d2ec0051173e9c9e0177b97afe3[m
+Merge: 78dc090 effe355
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Wed Nov 8 23:18:05 2017 +0600
+
+    Merge pull request #2 from IAmMonmoy/facebookImplementation
+    
+    added initial component for facebook-profile
+
+[33mcommit effe3551b3f6ad1669251b5277958b5dc809f993[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Wed Nov 8 22:32:52 2017 +0600
+
+    added initial component for facebook-profile
+
+[33mcommit 78dc0904cd7f9c4ec050ed91568ac2eecbf0f3da[m
+Merge: 4abf1a4 a1c8241
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Tue Nov 7 23:35:17 2017 +0600
+
+    Merge pull request #1 from IAmMonmoy/facebookImplementation
+    
+    created markup for facebook
+
+[33mcommit a1c8241e07166a1eec876bd20beaf16248cf24cb[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Tue Nov 7 23:33:50 2017 +0600
+
+    created markup for facebook
+
+[33mcommit 4abf1a41560d043fc7451a6908f2d285f768228c[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Thu Nov 2 22:31:57 2017 +0600
+
+    added submit button
+
+[33mcommit cbd898925e4f35b6c064d7755daa54c2a2836cc5[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Thu Nov 2 22:25:47 2017 +0600
+
+    completed adding api
+
+[33mcommit 4419fc918c29322d9c81be06755a2f53ba7e454e[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Thu Nov 2 01:16:32 2017 +0600
+
+    update api hit query type
+
+[33mcommit 192912a31b612fdacc5963485a0b170a10b9efb3[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Thu Nov 2 00:47:29 2017 +0600
+
+    implemented github profile search
+
+[33mcommit d1dc590bb079f3a0c98cd64b0469a97841d32d0c[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Thu Nov 2 00:28:34 2017 +0600
+
+    implemented search for github without linking it with main searchbar
+
+[33mcommit 9d017701ce4417be62ddd9640826fe048ffa7971[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Thu Nov 2 00:18:28 2017 +0600
+
+    share data from app to child github
+
+[33mcommit 63494fb8e5771805b90e9cf45471ba267d989f63[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Wed Nov 1 22:28:06 2017 +0600
+
+    imported ngmodel
+
+[33mcommit 867d2e1c97393ede866d423f4f2153b5016dbd8d[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Wed Nov 1 21:50:15 2017 +0600
+
+    model searchbar to app.component.html
+
+[33mcommit 5cf771d89ff29bb300acfba5ef163764ea7dc835[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Wed Nov 1 21:43:32 2017 +0600
+
+    Added search bar
+
+[33mcommit 23eb119ebb68ea8f2af1979848e9dd11c2500c82[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Wed Nov 1 21:36:10 2017 +0600
+
+    Named github bages corretly
+
+[33mcommit 6a989e2d4a56d44dcb227d70a3285abe211debbd[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Thu Oct 26 22:13:11 2017 +0600
+
+    created basic layout for showing github profile
+
+[33mcommit dc0208810b235a4dc86a2d17efea02f8f5eb93a7[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Thu Oct 26 21:45:49 2017 +0600
+
+    Completed basic layout for github and facebook profile search
+
+[33mcommit 6de75715b89dae1e268d11ea975ca1147e11bfd8[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Thu Oct 26 19:24:42 2017 +0600
+
+    added basic Navbar
+
+[33mcommit bf3d0f76de044c63845a27e7c0583eb87630db7f[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Wed Oct 25 23:24:21 2017 +0600
+
+    added bootstrap 4
+
+[33mcommit ecc449fab8c1c613ad06797ac2081000a640ea6a[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Wed Oct 25 23:15:47 2017 +0600
+
+    added bootstrap links
+
+[33mcommit e924de7efa80437d858fd68c8860fc0736c92013[m
+Author: Rajob Raihan Monmoy <IAmMonmoy@gmail.com>
+Date:   Mon Oct 23 23:38:17 2017 +0600
+
+    Wrote basic code for finding profile from github api using github-service
