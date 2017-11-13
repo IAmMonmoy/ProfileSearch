@@ -1,2 +1,2 @@
-This Application search profile of users from multiple places.
-Right now i am working on github and facebook search.
+Search user by full name rather than username from github.
+Shows at most 30 results which matches part of full name or matches with complete full name.
